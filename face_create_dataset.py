@@ -24,7 +24,7 @@ while True:
     
     if cv2.waitKey(1) == ord('q'):
         break
-    elif count == 500: # stop when 500 photos have been taken
+    elif count == 100: # stop when 500 photos have been taken
         break
 
 cap.release()
